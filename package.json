@@ -1,15 +1,16 @@
 {
   "name": "deepseek-proxy",
-  "version": "1.0.0",
+  "version": "1.0.0", 
   "description": "Proxy for DeepSeek API",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build", 
     "start": "next start"
   },
   "dependencies": {
     "next": "^14.0.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "@next/swc-darwin-arm64": "14.0.0"
   }
 }
