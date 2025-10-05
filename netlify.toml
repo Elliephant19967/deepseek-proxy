@@ -1,10 +1,18 @@
 [build]
   publish = "."
 
+# Explicit function routing
+[[redirects]]
+  from = "/api/deepseek-proxy"
+  to = "/.netlify/functions/deepseek-proxy"
+  status = 200
+
+# Catch-all for other API routes
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
 
 [functions]
+  directory = "netlify/functions"
   node_bundler = "esbuild"
