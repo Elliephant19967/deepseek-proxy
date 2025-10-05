@@ -11,12 +11,11 @@
       "src": "/api/deepseek-proxy",
       "dest": "/api/deepseek-proxy.js",
       "methods": ["GET", "POST", "OPTIONS"]
-    }
-  ]
-}
-,
+    },
     {
-      "src": "/api/test",
+      "src": "/api/test", 
       "dest": "/api/test.js",
       "methods": ["GET"]
     }
+  ]
+}
